@@ -23,6 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  url_launcher:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -32,7 +33,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -46,8 +46,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - images/chihau.png
-
+    - images/camilo.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
@@ -60,9 +59,12 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Caveat
+    - family: Neucha
       fonts:
-        - asset: fonts/Caveat-Regular.ttf
+        - asset: fonts/Neucha-Regular.ttf
+    - family: Amatic
+      fonts:
+        - asset: fonts/AmaticSC-Bold.ttf
 
   #
   # For details regarding fonts from package dependencies,
