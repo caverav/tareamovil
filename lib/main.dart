@@ -177,6 +177,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
+              //Aquí se agrega la nueva carta
               Card(
                 color: Colors.yellowAccent,
                 shape: RoundedRectangleBorder(
